@@ -33,6 +33,7 @@
     "cSpell.words": [
         "bangbang",
         "clippy",
+        "eframe",
         "egui",
         "RUSTC",
         "rustup",
@@ -40,6 +41,14 @@
         "trapapa",
         "workspce"
     ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:egui_plot}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
     // Uncomment the following options and restart rust-analyzer to get it to check code behind `cfg(target_arch=wasm32)`.
     // Don't forget to put it in a comment again before committing.
     // "rust-analyzer.cargo.target": "wasm32-unknown-unknown",
