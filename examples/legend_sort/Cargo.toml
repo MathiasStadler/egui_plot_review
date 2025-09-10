@@ -1,0 +1,19 @@
+[package]
+name = "legend_sort"
+version = "0.1.0"
+authors = ["hacknus <l_stoeckli@bluewin.ch>"]
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+eframe = { workspace = true, features = ["default"] }
+egui_plot.workspace = true
+env_logger = { workspace = true, default-features = false, features = [
+    "auto-color",
+    "humantime",
+] }
