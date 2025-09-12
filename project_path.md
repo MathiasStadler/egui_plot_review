@@ -52,3 +52,20 @@ cargo build
 ```
 
 ## Update rust , toolchain and crates
+
+## Run demo
+
+- change to folder with demo
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cd demo
+```
+<!-- keep the format -->
+- start trunk serve
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+export RUSTC_WRAPPER=sccache
+trunk serve
+```
+
+## copy demo

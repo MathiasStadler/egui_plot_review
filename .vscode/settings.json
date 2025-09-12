@@ -42,7 +42,9 @@
         "eframe",
         "egui",
         "emath",
+        "Ernerfeldt",
         "expl",
+        "Externref",
         "fract",
         "GLTF",
         "hline",
@@ -65,6 +67,7 @@
         "trapapa",
         "uninlined",
         "vline",
+        "wgpu",
         "workspce"
     ],
     "cSpell.customDictionaries": {
